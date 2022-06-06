@@ -86,7 +86,7 @@
 <meta property="og:site_name" content="Zaiping&#39;s Blog">
 <meta property="og:description" content="对于工程技术人员来说, 经常需要访问Github网站, 但国内有时候访问速度比较慢, 这里面一个很重要的原因是DNS污染导致的访问速度慢. 可以通过修改/etc/hosts改善.   查找Github 网址对应IP 修改/etc/hosts  访问站长工具网站-DNS查询页面, 获取github.com和github.global.ssl.fastly.net对应的A record， 选取一个TT">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2022-06-06T09:58:13.100Z">
+<meta property="og:updated_time" content="2022-06-06T14:14:57.854Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="修改&#x2F;etc&#x2F;hosts来加速国内Github访问速度">
 <meta name="twitter:description" content="对于工程技术人员来说, 经常需要访问Github网站, 但国内有时候访问速度比较慢, 这里面一个很重要的原因是DNS污染导致的访问速度慢. 可以通过修改/etc/hosts改善.   查找Github 网址对应IP 修改/etc/hosts  访问站长工具网站-DNS查询页面, 获取github.com和github.global.ssl.fastly.net对应的A record， 选取一个TT">
@@ -353,6 +353,8 @@
 <p>20.205.243.166 github.com<br>128.242.250.148 github.global.ssl.fastly.net</p>
 </blockquote>
 <p>该操作同时对terminal和浏览器访问加速起作用。</p>
+<hr>
+<p>另外，也可以直接访问Github镜像的方式， 例如<a href="https://doc.fastgit.org/zh-cn/guide.html" target="_blank" rel="noopener">FastGit</a>, 在git命令中直接替换github.com为hub.fastgit.xyz， 或者git config全局替换：<br><code>git config --global url.&quot;https://hub.fastgit.xyz/&quot;.insteadOf &quot;https://github.com/&quot;</code><br><code>git config protocol.https.allow always</code></p>
 
       
     </div>
@@ -464,21 +466,12 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/categories/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">2</span>
                   <span class="site-state-item-name">categories</span>
                 </a>
               </div>
             
 
-            
-              
-              
-              <div class="site-state-item site-state-tags">
-                <a href="/tags/index.html">
-                  <span class="site-state-item-count">1</span>
-                  <span class="site-state-item-name">tags</span>
-                </a>
-              </div>
             
 
           </nav>
