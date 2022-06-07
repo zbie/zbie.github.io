@@ -356,6 +356,21 @@
 <p>该操作同时对terminal和浏览器访问加速起作用。</p>
 <hr>
 <p>另外，也可以直接访问Github镜像的方式， 例如<a href="https://doc.fastgit.org/zh-cn/guide.html" target="_blank" rel="noopener">FastGit</a>, 在git命令中直接替换github.com为hub.fastgit.xyz， 或者git config全局替换：<br><code>git config --global url.&quot;https://hub.fastgit.xyz/&quot;.insteadOf &quot;https://github.com/&quot;</code><br><code>git config protocol.https.allow always</code></p>
+<hr>
+<hr>
+<hr>
+<p>阿里云 maven加速:</p>
+<p>修改/usr/share/maven/conf/settings.xml, 将如下内容加入<mirrors>的section下面.</mirrors></p>
+<blockquote>
+<blockquote>
+<p><code>&lt;mirror&gt;
+    &lt;id&gt;aliyunmaven&lt;/id&gt;
+    &lt;mirrorOf&gt;*&lt;/mirrorOf&gt;
+    &lt;name&gt;阿里云公共仓库&lt;/name&gt;
+    &lt;url&gt;https://maven.aliyun.com/repository/public&lt;/url&gt;
+&lt;/mirror&gt;</code></p>
+</blockquote>
+</blockquote>
 
           
         
